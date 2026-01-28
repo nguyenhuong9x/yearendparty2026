@@ -81,9 +81,11 @@ function addLogLine(text, isSuccess = false) {
 }
 
 function showInvitation() {
+    const modal = document.querySelector('.modal');
+    modal.classList.add('is-invitation');
+
     document.querySelector('.loading-screen').classList.remove('active');
     document.querySelector('.invite-screen').classList.add('active');
-    document.getElementById('modalTitle').textContent = 'Cập nhật thành công 🎉';
 
     // Create celebration effects
     createFireworks();
