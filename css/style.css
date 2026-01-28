@@ -284,9 +284,9 @@ button {
 }
 
 .finish-image {
-    width: 100%;
     height: 100%;
-    object-fit: contain;
+    aspect-ratio: 1240 / 1748;
+    object-fit: cover;
     transform: scale(1.01);
     /* Eliminates sub-pixel gaps at edges */
     mask-image: radial-gradient(circle, black 80%, transparent 100%);
