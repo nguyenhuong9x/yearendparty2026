@@ -286,6 +286,7 @@ button {
 .finish-image {
     height: 100%;
     aspect-ratio: 1240 / 1748;
+    /* Dùng để chỉnh kích thước theo màn hình */
     object-fit: cover;
     transform: scale(1.01);
     /* Eliminates sub-pixel gaps at edges */
